@@ -6,5 +6,6 @@ eureka:
     preferIpAddress: true
 
 api:
-  resource: http://localhost:8081
-  payment: http://localhost:8082
+  basic-uri:
+    resource: http://localhost:8081
+    payment: http://localhost:8082
